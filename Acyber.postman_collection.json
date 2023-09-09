@@ -1,0 +1,58 @@
+{
+	"info": {
+		"_postman_id": "2663b60b-e057-4724-8c2b-c41756b4bf8f",
+		"name": "Acyber",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12162535"
+	},
+	"item": [
+		{
+			"name": "json to base64",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "authorization",
+						"value": "aw8c61321ca6w7sdaACww41@#",
+						"type": "text"
+					},
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "upload",
+							"type": "file",
+							"src": "/C:/Users/fava/Desktop/ScreenSho/001.png"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost/['']",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"['']"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
